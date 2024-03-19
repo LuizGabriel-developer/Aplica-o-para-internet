@@ -1,0 +1,51 @@
+<html>
+   <head>
+      <title>formulario de inscrição</title>
+   </head>
+   <body>
+        <h1>Formulário de Inscrição</h1>
+        <h3>Preencha seus dados</h3>
+        <form autocomplete="on">
+ 
+            <p>
+            <label for="nome">Nome:</label>
+            <input type="text" style="width:300px;" id="nome" required />
+            </p>
+
+            <p>
+            <label for="email">E-mail:</label>
+            <input type="email" style="width:300px;" id="email" required />
+            </p>
+
+            <p>
+            <label for="endereco">Endereço:</label>
+            <input type="text" style="width:300px;" id="endereco" required />
+            </p>
+     
+            <p>
+            <label for="cidade">Cidade:</label>
+            <input type="text" style="width:300px;" id="cidade" required />
+            </p>
+
+            <p>
+            <label for="telefone">Telefone:</label>
+            <input type="text" minlength="1" maxlength="3" style="width:50px;" id="ddd" required />
+            <input type="text" minlength="1" maxlength="9" style="width:200px;" id="telefone" required />
+            </p>
+            
+            <p>
+            <label for="usuario">Usuário:</label>
+            <input type="text" id="usuario" placeholder="Entre com o seu login" required />
+            </p>
+
+            <p>            
+            <label for="senha">Senha:</label>
+            <input type="password" minlength="6" maxlength="8" id="senha"required />
+            </p>
+
+            <input type="submit" value="Finalizar minha inscrição" />
+            
+            
+        </form>
+   </body>
+</html>
